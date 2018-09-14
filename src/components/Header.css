@@ -1,0 +1,47 @@
+.Header {
+  position: fixed;
+  margin: 50px 0;
+  width: 100%;
+  z-index: 100px;
+}
+
+.HeaderGroup {
+  max-width: 704px;
+  margin-left: 0 auto;
+  display: grid;
+  /*grid-template-columns: repeat(3, auto);*/
+  padding: 10px;
+  align-items: center;
+  justify-items: left;
+}
+
+.Header a {
+  color: #25283A;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 8px
+}
+
+.Header button {
+  cursor: pointer;
+  padding: 12px 20px;
+  margin-top: 16px;
+  background-color: #4F38FF;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 8px;
+  transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);;
+}
+
+.Header button:hover {
+  background-color: #422CED;
+  box-shadow: 0 10px 20px rgba(15,7,77,0.25);
+  transform: translateY(-2px);
+}
+
+.Header svg {
+  padding: 0 0 48px 0;
+}
