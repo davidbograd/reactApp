@@ -9,10 +9,6 @@ body {
   background-color: #F9F8FF;
 }
 
-h1 {
-  font-family: "Frank Ruhl Libre";
-}
-
 a {
   font-weight: 600;
   color: #4F38FF;
@@ -32,10 +28,12 @@ a {
 }
 
 .titleArea h1 {
-  margin: 0 0 8px 0;
+  margin: 0 0 16px 0;
   font-size: 80px;
   line-height: 1;
   color: #4F38FF;
+  font-family: "Frank Ruhl Libre";
+  font-weight: 600;
 }
 
 .titleArea p {
