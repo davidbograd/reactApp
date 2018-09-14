@@ -1,0 +1,39 @@
+.Header {
+  position: fixed;
+  margin: 50px 0;
+  width: 100%;
+  z-index: 100px;
+}
+
+.HeaderGroup {
+  max-width: 704px;
+  margin-left: 0 auto;
+  display: grid;
+  /*grid-template-columns: repeat(3, auto);*/
+  padding: 10px;
+  align-items: center;
+  justify-items: left;
+}
+
+.Header a {
+  color: #25283A;
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 8px
+}
+
+.Header button {
+  cursor: pointer;
+  padding: 12px 20px;
+  background-color: #4F38FF;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.Header svg {
+  padding: 0 0 48px 0;
+}
