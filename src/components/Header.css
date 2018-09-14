@@ -18,20 +18,28 @@
 .Header a {
   color: #25283A;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 700;
   padding-bottom: 8px
 }
 
 .Header button {
   cursor: pointer;
   padding: 12px 20px;
+  margin-top: 16px;
   background-color: #4F38FF;
   outline: none;
   border: none;
   color: #fff;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
   border-radius: 8px;
+  transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);;
+}
+
+.Header button:hover {
+  background-color: #422CED;
+  box-shadow: 0 10px 20px rgba(15,7,77,0.25);
+  transform: translateY(-2px);
 }
 
 .Header svg {
